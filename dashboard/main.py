@@ -5,13 +5,13 @@ import streamlit as st
 from babel.numbers import format_currency
 
 # Load Data
-all_df = pd.read_csv("all.csv")
+all_df = pd.read_csv("dashboard/all.csv")
 
 # Sidebar
 with st.sidebar:
     st.title("E-Commerce Dashboard")
     st.markdown("""Berikut adalah Tren Penggunaan Sepeda saat ini""")
-    st.image("pngegg.png")
+    st.image("dashboard/pngegg.png")
 
 
 # Title
