@@ -9,13 +9,13 @@ all_df = pd.read_csv("dashboard/all.csv")
 
 # Sidebar
 with st.sidebar:
-    st.title("E-Commerce Dashboard")
+    st.title("Bike Dashboard")
     st.markdown("""Berikut adalah Tren Penggunaan Sepeda saat ini""")
     st.image("dashboard/pngegg.png")
 
 
 # Title
-st.header("E-Commerce Dashboard :bike:")
+st.header("Bike Dashboard :bike:")
 
 # 1. Tren Penggunaan Sepeda per Bulan
 st.subheader("Tren Penggunaan Sepeda per Bulan")

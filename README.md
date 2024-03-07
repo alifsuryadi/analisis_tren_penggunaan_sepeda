@@ -13,3 +13,7 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 streamlit run dashboard/main.py
 ```
+
+## Link Deploy dashboard ke dalam streamlit cloud.
+
+https://pengguna-sepeda.streamlit.app/
